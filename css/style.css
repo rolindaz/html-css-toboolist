@@ -3,18 +3,78 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #F6F8F9;
+.bg-white {
+    background-color: #ffffff;
 }
-
-#logo-box {
-    background: no-repeat url(../img/logo\ copia.png) #ffffff 1% 50%;
+header {
+    background: no-repeat url(../img/logo\ copia.png) 1% 50%;
     min-height: 65px;
 }
-
 h1 {
     margin-left: 2.4em;
     padding-top: 0.4em;
+}
+main {
+    background-color: #F6F8F9;
+    padding-top: 1.5%;
+    line-height: 1.5em;
+}
+.bg-blue {
+    background-color: #45abea;
+}
+.centered {
+    display: block;
+    width: 80%;
+    margin: 0.2% auto;
+    padding: 1% 2% 1%;
+}
+section {
+    margin-top: 1%;
+}
+button {
+    font-size: 50%;
+    padding: 0.2%;
+    color: #ffffff;
+    border-radius: 25%;
+    border-color: #ffffff;
+}
+.bg-purple {
+    background-color: #9B72E4;
+}
+.bg-pink {
+    background-color: #D964A1;
+}
+.bg-green {
+    background-color: #64C0A8;
+}
+.bg-acidgreen {
+    background-color: #B0C926;
+}
+.bg-orange {
+    background-color: #F29E32;
+}
+#add-section-button {
+    color: #F6F8F9;
+    border-color: #F6F8F9;
+    background-color: #ffffff;
+}
+ul {
+    list-style: none;
+}
+.green-circle-check {
+    font-size: 70%;
+    color: #64C0A8;
+    margin-right: 0.5%;
+    text-align: left;
+}
+.red-circle-cross {
+    font-size: 90%;
+    color: #EB5F59;
+    margin-right: 0.5%;
+    text-align: left;
+}
+.down-arrow {
+    font-size: 80%;
+    margin-right: 0.5%;
+    text-align: left;
 }
