@@ -1,11 +1,24 @@
+/*general*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+.roboto-font {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+body {
+    font-family: "Roboto", sans-serif;
+}
 .bg-white {
     background-color: #ffffff;
 }
+/*header*/
 header {
     background: no-repeat url(../img/logo\ copia.png) 1% 50%;
     min-height: 65px;
@@ -14,67 +27,99 @@ h1 {
     margin-left: 2.4em;
     padding-top: 0.4em;
 }
+/*main*/
 main {
     background-color: #F6F8F9;
     padding-top: 1.5%;
     line-height: 1.5em;
-}
-.bg-blue {
-    background-color: #45abea;
+    min-height: 600px;
 }
 .centered {
     display: block;
     width: 80%;
     margin: 0.2% auto;
-    padding: 1% 2% 1%;
 }
 section {
-    margin-top: 1%;
-}
-button {
-    font-size: 50%;
-    padding: 0.2%;
-    color: #ffffff;
-    border-radius: 25%;
-    border-color: #ffffff;
-}
-.bg-purple {
-    background-color: #9B72E4;
-}
-.bg-pink {
-    background-color: #D964A1;
-}
-.bg-green {
-    background-color: #64C0A8;
-}
-.bg-acidgreen {
-    background-color: #B0C926;
-}
-.bg-orange {
-    background-color: #F29E32;
-}
-#add-section-button {
-    color: #F6F8F9;
-    border-color: #F6F8F9;
-    background-color: #ffffff;
+    margin-top: 2%;
 }
 ul {
     list-style: none;
 }
 .green-circle-check {
+    display: inline-block;
     font-size: 70%;
     color: #64C0A8;
-    margin-right: 0.5%;
+    margin-right: 0.8%;
+    width: 1em;
     text-align: left;
+    padding-left: 5px;
 }
 .red-circle-cross {
-    font-size: 90%;
+    display: inline-block;
+    font-size:71%;
     color: #EB5F59;
-    margin-right: 0.5%;
+    margin-right: 0.8%;
+    width: 1em;
     text-align: left;
+    padding-left: 5px;
 }
 .down-arrow {
+    display: inline-block;
     font-size: 80%;
     margin-right: 0.5%;
+    width: 1em;
     text-align: left;
+}
+/*buttons*/
+button {
+    font-size: 50%;
+    padding: 0.2% 0.5%;
+    color: #ffffff;
+    border-radius: 20px;
+    border-color: #ffffff;
+    border-style: solid;
+}
+.button-blue {
+    background-color: #45abea;
+    border-color: #45abea;
+}
+.button-purple {
+    background-color: #9B72E4;
+    border-color: #9B72E4;
+}
+.button-pink {
+    background-color: #D964A1;
+    border-color: #D964A1;
+}
+.button-green {
+    background-color: #64C0A8;
+    border-color: #64C0A8;
+}
+.button-acidgreen {
+    background-color: #B0C926;
+    border-color: #B0C926;
+}
+.button-orange {
+    background-color: #F29E32;
+    border-color: #F29E32;
+}
+/*IDs*/
+#add-section-button {
+    color: #DEE1E4;
+    border-color: #DEE1E4;
+    border-width: 0.1px;
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+#top-box {
+    border-radius: 5px 5px 0px 0px;
+    padding: 1% 2% 1%;
+}
+#bottom-box {
+    border-radius: 0px 0px 5px 5px;
+    padding: 1% 2% 4%;
+}
+#add-task-button {
+    border-radius: 3px;
+    border-width: 0.1px;
 }
